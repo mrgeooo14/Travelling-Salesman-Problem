@@ -3,8 +3,7 @@ import numpy as np
 from read_city_data import reader
 from scipy.spatial import distance
 
-def greedy_algorithm(filename):
-    initial_cities = reader(filename)  # Read .dat
+def greedy_algorithm(initial_cities):
     all_distances = []  # Hold the distances
 
     for _ in range(10):
