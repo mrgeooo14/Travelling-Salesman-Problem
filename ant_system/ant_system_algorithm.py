@@ -1,6 +1,6 @@
 import random
 import math
-import ant_actions
+import ant_system.ant_actions as ant_actions
 
 class SetEdge:  # This class is used to initialize the edges in the graph that should be followed
     def __init__(self, i, j, weight, initial_pheromone):
